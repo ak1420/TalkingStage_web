@@ -2597,16 +2597,16 @@ html {
   }
   
   .hero-phone {
-    z-index: 100;
+z-index: 100;
     aspect-ratio: 4.65 / 8.8;
     pointer-events: none;
-    background-image: url(https://i.ibb.co/dwZgKcx4/web-1-resize.gif);
+    background-image: url(../web 1_resize.gif);
     background-position: 50% 100%;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 31rem;
+    width: 27rem;
     position: relative;
-    top: rem;
+    top: -5rem;
     left: 2rem;
   }
   
