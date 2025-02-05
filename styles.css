@@ -1311,6 +1311,7 @@ html {
   }
   
   @media screen and (max-width: 479px) {
+    
     .w-container {
       max-width: none;
     }
@@ -2680,9 +2681,10 @@ html {
     pointer-events: none;
     justify-content: center;
     align-items: flex-end;
-    /* max-width: max-content; */
+    width: 100%;
     padding-bottom: 3.6rem;
-    display: flex;
+    display: flex
+;
     position: fixed;
     inset: auto 0% 0%;
   }
@@ -4584,7 +4586,7 @@ html {
   
     .hero-phone {
       width: 80rem;
-      top: -5rem;
+      top: 38rem;
       left: 5rem;
     }
   
@@ -4764,7 +4766,7 @@ html {
     }
   
     .benefits-right-content {
-      width: 50rem;
+      width: 67rem;
     }
   
     .benefit-lighting {
