@@ -1,11 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Social_Media" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209.73 162.34">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 162.83 109.91">
   <defs>
     <style>
       .cls-1 {
-        fill: #fff;
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        mix-blend-mode: soft-light;
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        mix-blend-mode: overlay;
+        opacity: .2;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
       }
     </style>
+    <linearGradient id="linear-gradient" x1="104.28" y1="77.35" x2="106.3" y2="99.6" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#349204"/>
+      <stop offset="1" stop-color="#34c404"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="63.12" y1="61.36" x2="48.33" y2="-38.2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3600"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
   </defs>
-  <polygon class="cls-1" points="143.03 81.17 154.29 14.72 80.26 14.72 13.81 81.17 67.99 81.17 57.13 147.63 131.15 147.63 195.93 81.17 143.03 81.17"/>
+  <g class="cls-3">
+    <g id="Layer_4" data-name="Layer 4">
+      <g>
+        <g>
+          <polygon class="cls-5" points="162.83 54.97 107.87 109.91 46.65 109.91 50.11 90.27 50.81 86.28 60.92 28.87 122.28 28.87 118.02 54.97 162.83 54.97"/>
+          <g class="cls-2">
+            <path d="M122.04,29.08l-4.22,25.85-.04.24h44.55l-54.54,54.53h-60.89l3.41-19.4.7-3.99,10.08-57.24h60.95M122.28,28.87h-61.36l-10.11,57.41-.7,3.99-3.46,19.64h61.22l54.95-54.95h-44.81l4.26-26.09h0Z"/>
+          </g>
+        </g>
+        <polygon class="cls-4" points="115.94 28.87 105.83 86.28 50.81 86.28 60.92 28.87 115.94 28.87"/>
+        <g>
+          <polygon class="cls-1" points="116.18 0 54.95 0 0 54.95 44.81 54.95 40.54 81.04 101.91 81.04 116.18 0"/>
+          <g class="cls-2">
+            <path d="M115.93.21l-14.19,80.62h-60.95l4.22-25.84.04-.24H.5L55.04.21h60.89M116.18,0h-61.22L0,54.95h44.81l-4.26,26.08h61.37L116.18,0h0Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>
